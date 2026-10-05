@@ -1,257 +1,177 @@
-# Awesome-Relational-Database-Management-System-RDBMS
-
-## Top Relational Database Management System (RDBMS) Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on SQL Databases, Cloud-Managed Engines & Open-Source RDBMS Platforms*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial RDBMS platforms** and **open-source projects** that store, query, and manage structured data using SQL. These databases power everything from embedded mobile apps to petabyte-scale cloud data warehouses.
-
-
-
-**Examples** include Microsoft SQL Server, Oracle Database, PostgreSQL, MySQL, IBM Db2, MariaDB, SQLite, Amazon Aurora, Google Cloud SQL, and SAP ASE (the category leaders).
-
-
-
-**Open-source emphasis**: RDBMS is one of the strongest open-source domains. **PostgreSQL** and **MySQL** collectively power the majority of web applications, with **MariaDB** as the community-driven MySQL fork, **SQLite** as the embedded standard, and **CockroachDB**, **YugabyteDB**, and **TiDB** bringing distributed SQL to open source. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/)**  
-
-  Microsoft's enterprise RDBMS with T-SQL, strong Windows integration, and Azure SQL Database as the cloud-managed option. **The standard for Microsoft-centric enterprises** — Developer edition free for non-production use.
-
-
-
-- **[Oracle Database](https://www.oracle.com/database/)**  
-
-  **The enterprise RDBMS standard** for mission-critical workloads with advanced features (RAC, Data Guard, Exadata). **The most feature-complete commercial RDBMS** — licensing based on cores and named users.
-
-
-
-- **[IBM Db2](https://www.ibm.com/products/db2)**  
-
-  IBM's enterprise RDBMS with AI-powered optimization, pureXML, and strong mainframe integration. **The standard for IBM-centric enterprises** — Db2 Community Edition available on Docker.
-
-
-
-- **[Amazon Aurora](https://aws.amazon.com/rds/aurora/)**  
-
-  AWS's MySQL- and PostgreSQL-compatible cloud RDBMS with **5x throughput over standard MySQL** and **3x over PostgreSQL** . **The leading cloud-native RDBMS** — storage auto-scales to 128 TB.
-
-
-
-- **[Google Cloud SQL](https://cloud.google.com/sql)**  
-
-  Google's fully managed MySQL, PostgreSQL, and SQL Server. **The easiest migration path** for existing database workloads to GCP.
-
-
-
-- **[SAP ASE](https://www.sap.com/products/sybase-ase.html)**  
-
-  SAP's enterprise RDBMS (formerly Sybase ASE) with strong transaction processing and SAP integration.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[PostgreSQL](https://github.com/postgres/postgres)**  
-
-  **The world's most advanced open-source relational database**, PostgreSQL License (permissive) with **17,000+ GitHub stars** . **ACID compliant with full transaction support, MVCC, and point-in-time recovery** . Features **JSONB, arrays, range types, full-text search, window functions, CTEs, and foreign data wrappers** . **Extensible architecture** — custom types, functions, operators, and extensions like **PostGIS (geospatial), TimescaleDB (time-series), and pgvector (AI embeddings)** . **The most feature-complete open-source RDBMS** — used by Apple, Instagram, and Reddit . **The de facto standard for modern applications** .
-
-
-
-- **[MySQL](https://github.com/mysql/mysql-server)**  
-
-  **The world's most popular open-source database**, GPL-2.0 licensed with **10,000+ GitHub stars** . **The default database for web applications** — powers WordPress, Facebook, and YouTube . **InnoDB storage engine** with ACID compliance and row-level locking . **Replication, partitioning, and sharding** for scale . **The most widely deployed RDBMS** — available on every cloud platform . **Best for web applications and read-heavy workloads** .
-
-
-
-- **[MariaDB](https://github.com/MariaDB/server)**  
-
-  **The community-developed fork of MySQL**, GPL-2.0 licensed with **5,000+ GitHub stars** . **Created by MySQL's original developers** after Oracle's acquisition . **Drop-in MySQL replacement** with additional storage engines (Aria, ColumnStore, MyRocks) . **More open development model** — features land faster than MySQL . **The preferred choice for MySQL users wanting community governance** . **Best for MySQL compatibility with more features** .
-
-
-
-- **[SQLite](https://github.com/sqlite/sqlite)**  
-
-  **The most deployed database in the world**, public domain with **6,000+ GitHub stars** . **Embedded, serverless, zero-configuration** — no separate process . **The standard for mobile apps, embedded systems, and local storage** — used by every iPhone, Android device, and web browser . **Single file database** — easy backup and transfer . **The best choice for embedded and local-first applications** .
-
-
-
-- **[CockroachDB](https://github.com/cockroachdb/cockroach)**  
-
-  **Distributed SQL database with PostgreSQL compatibility**, BSL licensed (free for most uses) with **30,000+ GitHub stars** . **Survives data center failures with no data loss** — built for global scale . **Horizontal scaling, geo-partitioning, and serializable isolation** . **The leading open-source distributed SQL database** — used by Netflix, Spotify, and Comcast . **Best for globally distributed applications requiring strong consistency** .
-
-
-
-- **[YugabyteDB](https://github.com/yugabyte/yugabyte-db)**  
-
-  **Distributed SQL database with PostgreSQL and Cassandra compatibility**, Apache-2.0 licensed with **9,000+ GitHub stars** . **Multi-region, multi-cloud deployment** with synchronous replication . **PostgreSQL-compatible** — reuse existing drivers and tools . **The most open distributed SQL database** — Apache 2.0 licensed . **Best for multi-cloud and geo-distributed workloads** .
-
-
-
-- **[TiDB](https://github.com/pingcap/tidb)**  
-
-  **Distributed SQL database with MySQL compatibility**, Apache-2.0 licensed with **37,000+ GitHub stars** . **HTAP (Hybrid Transactional/Analytical Processing)** — real-time analytics on transactional data . **Horizontal scaling, strong consistency, and MySQL protocol** . **The leading open-source HTAP database** — used by Square, Shopee, and Pinterest . **Best for real-time analytics alongside OLTP** .
-
-
-
-- **[Firebird](https://github.com/FirebirdSQL/firebird)**  
-
-  **Open-source RDBMS with excellent concurrency and small footprint**, IPL/IDPL licensed . **Embedded and server modes** — single file database . **Strong for ISV applications and embedded deployments** . **The best open-source alternative for embedded enterprise applications** .
-
-
-
-- **[H2 Database](https://github.com/h2database/h2database)**  
-
-  **Java SQL database with embedded and server modes**, MPL-2.0/Eclipse Public License . **The standard for Java testing and development** — used by Spring Boot default . **Best for Java applications needing lightweight database** .
-
-
-
-- **[Apache Derby](https://github.com/apache/derby)**  
-
-  **Java-based embedded RDBMS from Apache**, Apache-2.0 licensed . **Pure Java, zero administration** — ideal for Java applications . **Best for Java embedded database needs** .
-
-
-
-- **[Firebird](https://github.com/FirebirdSQL/firebird)** — Already listed. **Excellent concurrency and small footprint** .
-
-
-
-- **[HSQLDB](https://github.com/HSQLDB/HSQLDB)**  
-
-  **Java SQL database with in-memory and disk modes**, BSD licensed . **The standard for Java unit testing** — used by many Java frameworks . **Best for testing and lightweight Java persistence** .
-
-
-
-### NewSQL & Distributed SQL
-
-
-
-- **[CockroachDB](https://github.com/cockroachdb/cockroach)** — Already listed. **The leading open-source distributed SQL** .
-
-- **[YugabyteDB](https://github.com/yugabyte/yugabyte-db)** — Already listed. **Apache 2.0 distributed SQL** .
-
-- **[TiDB](https://github.com/pingcap/tidb)** — Already listed. **HTAP with MySQL compatibility** .
-
-- **[Vitess](https://github.com/vitessio/vitess)** — **MySQL sharding middleware from YouTube**, Apache-2.0 licensed with **18,000+ GitHub stars** . **Scales MySQL horizontally** — used by Slack, Square, and Etsy . **Best for scaling existing MySQL deployments** .
-
-- **[Citus](https://github.com/citusdata/citus)** — **PostgreSQL extension for distributed tables**, AGPL-3.0 licensed . **Shards PostgreSQL across nodes** — part of Microsoft Azure PostgreSQL . **Best for scaling PostgreSQL without application changes** .
-
-- **[Greenplum](https://github.com/greenplum-db/gpdb)** — **MPP data warehouse based on PostgreSQL**, Apache-2.0 licensed . **Best for analytical workloads on PostgreSQL** .
-
-
-
-### Embedded & Specialized
-
-
-
-- **[DuckDB](https://github.com/duckdb/duckdb)** — **In-process analytical database (OLAP)**, MIT licensed with **20,000+ GitHub stars** . **"SQLite for analytics"** — columnar storage with vectorized execution . **Best for analytical queries on embedded data** .
-
-- **[libSQL](https://github.com/tursodatabase/libsql)** — **Open-source SQLite fork with replication and HTTP access**, MIT licensed . **The foundation for Turso** — SQLite at the edge . **Best for edge and serverless SQLite** .
-
-- **[RQLite](https://github.com/rqlite/rqlite)** — **SQLite with Raft consensus for distributed deployment**, MIT licensed . **Replicated SQLite** — easy cluster setup . **Best for small distributed deployments** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Percona Server for MySQL** — Enhanced MySQL with performance and diagnostics .
-
-- **Percona Server for PostgreSQL** — Enhanced PostgreSQL with additional features .
-
-- **TimescaleDB** — Time-series extension for PostgreSQL, Apache-2.0/Timescale License .
-
-- **PostGIS** — Geospatial extension for PostgreSQL, GPL-2.0 licensed .
-
-- **pgvector** — Vector similarity search for PostgreSQL, PostgreSQL License .
-
-- **Apache Cassandra** — Wide-column distributed database, Apache-2.0 licensed .
-
-- **ScyllaDB** — Cassandra-compatible with higher performance, AGPL-3.0 licensed .
-
-- **MongoDB** — Document database (not relational), SSPL licensed .
-
-- **CouchDB** — Document database with HTTP API, Apache-2.0 licensed .
-
-
-
-**Frameworks for building custom database solutions**: Choose based on workload and scale. **PostgreSQL** for the most feature-complete open-source RDBMS with extensibility . **MySQL** or **MariaDB** for web applications and read-heavy workloads . **SQLite** for embedded and local-first applications . **CockroachDB** or **YugabyteDB** for globally distributed SQL with strong consistency . **TiDB** for HTAP workloads . **DuckDB** for embedded analytics . **Vitess** or **Citus** for scaling existing MySQL/PostgreSQL deployments . Note that true enterprise RDBMS with vendor-supported SLAs, advanced security certifications, and proprietary features (Oracle RAC, SQL Server Always On) remains primarily commercial territory; open-source stacks provide strong ACID, replication, and scaling foundations that require integration for complete enterprise database operations.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Databases store sensitive business and personal data. Self-hosted solutions require proper security hardening, encryption at rest and in transit, access controls, and backup procedures.
-
-- **License considerations**: CockroachDB uses BSL (free for most uses but not OSI open source), MongoDB uses SSPL (not OSI approved), and TimescaleDB has a mixed license. Verify licensing against your use case before committing .
-
-- **PostgreSQL and MySQL have different strengths** — PostgreSQL for advanced features and extensibility; MySQL/MariaDB for simplicity and web-scale read performance . Evaluate against your workload.
-
-- **Distributed SQL adds operational complexity** — CockroachDB, YugabyteDB, and TiDB require expertise in consensus, replication, and geo-distribution. Evaluate operational capacity before deployment .
-
-- The open-source ecosystem provides strong ACID, replication, and scaling foundations, but **vendor-supported SLAs, advanced security certifications, and proprietary enterprise features** remain primarily commercial offerings.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Relational Database Management System (RDBMS)" width="100%">
+</p>
+
+# 🗄️ Awesome Relational Database Management System (RDBMS)
+
+<a rref="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://iiscord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Relational-Database-Management-System-RDBMS)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+
+> 🚀 **Curated List of Commercial Enterprise SaaS Products, Cloud-Managed Database Engines, & High-Performance Open-Source RDBMS Platforms.**
+>
+> 📌 *Comprehensive guide to SQL databases, distributed transaction engines, embedded SQL storage, and cloud-native relational infrastructure.*
 
 ---
 
+## 💡 Overview & Ecosystem Insights
 
+Relational Database Management Systems (RDBMS) form the foundational backbone of modern enterprise software, mission-critical financial applications, e-commerce, and high-concurrency web services. By enforcing **ACID properties (Atomicity, Consistency, Isolation, Durability)** and offering expressive **SQL querying**, relational engines guarantee data integrity at scale.
 
-**Made for database administrators, backend developers, and infrastructure architects.**  
+### 📊 Market Size & Industry Concentration
 
-Let's make relational database management more open, transparent, and accessible.
+- **📈 Estimated Global Market Size:** The global RDBMS and Database Management System (DBMS) market is estimated at **$80+ Billion** (projected to exceed **$120+ Billion** by 2030), driven by rapid cloud migration, serverless database adoption, and real-time AI vector retrieval.
+- **🏗️ Market Structure & Fragmentation:** The enterprise SaaS and cloud database sector is **highly concentrated** around major hyper-scalers and legacy tech giants (*Microsoft, Amazon Web Services, Oracle, Google Cloud, and IBM*). However, the developer-focused and open-source distributed SQL landscape remains **moderately fragmented**, with innovative engines like *CockroachDB, TiDB, YugabyteDB, Supabase, and DuckDB* challenging traditional monolithic architectures.
+
+---
+
+## 📚 Table of Contents
+
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [🔓 Open-Source GitHub Repositories](#-open-source-github-repositories)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Enterprise Security & Disclaimer](#%EF%B8%8F-enterprise-security--disclaimer)
+- [⭐ Star History](#-star-history)
+
+---
+
+## 🏢 SaaS & Hosted Commercial Platforms
+
+Below is a curated comparison of leading commercial RDBMS engines and fully managed cloud database platforms, sorted by **company market valuation / revenue** (descending).
+
+| Platform / Vendor | Description & Key Strengths | Starting Pricing (Specific) | Free Tier / Trial Limits | Company Valuation / Revenue |
+| :--- | :--- | :--- | :--- | :--- |
+| 🔷 **[Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/)** | Enterprise RDBMS standard with T-SQL, Azure SQL integration, & AI-assisted optimization. | **$3,945** (Standard 2-core pack) or **$0.10/hr** (Azure Arc PAYG). | **Express Edition:** Free up to 10 GB DB size, 1 CPU socket / 4 cores, 1 GB RAM. **Azure SQL:** 100k vCore-sec/mo free. | **$3.3+ Trillion Valuation** / ~$331B Revenue |
+| ☁️ **[Google Cloud SQL](https://cloud.google.com/sql)** | Fully managed PostgreSQL, MySQL, & SQL Server database engine on Google Cloud Infrastructure. | **~$8.00/month** (shared-core `db-f1-micro` instance). | **No permanent free tier.** $300 free credits upon sign-up + 30-day Enterprise trial. | **$2.3+ Trillion Valuation** / ~$330B Revenue |
+| 📦 **[Amazon Aurora](https://aws.amazon.com/rds/aurora/)** | High-performance MySQL/PostgreSQL-compatible cloud RDBMS auto-scaling up to 128 TB per instance. | **~$0.041/hour** (db.t4g.medium instance) + $0.10/GB-mo storage. | **RDS Free Tier:** 750 hrs/mo Single-AZ db.t2.micro/db.t3.micro for 12 months + $100–$200 free AWS credits. | **$1.9+ Trillion Valuation** / ~$600B Revenue |
+| 🔴 **[Oracle Database](https://www.oracle.com/database/)** | Enterprise RDBMS leader for mission-critical OLTP with Real Application Clusters (RAC) & Autonomous AI DB. | **~$47,500** per processor license (Enterprise Edition) or OCI PAYG. | **Always Free:** 2 Autonomous Databases (20 GB storage each). **Developer Free:** 2 vCPUs, 2 GB RAM, 12 GB data. | **$450+ Billion Valuation** / ~$53B Revenue |
+| 💼 **[IBM Db2](https://www.ibm.com/products/db2)** | Enterprise AI-powered hybrid database platform optimized for mainframes and enterprise workloads. | **~$1,000** per VPC/month (Db2 Standard Edition). | **Community Edition:** Free forever (limited to 4 vCPU cores & 16 GB RAM for dev/prod). | **$210+ Billion Valuation** / ~$62B Revenue |
+| 📐 **[SAP ASE](https://www.sap.com/products/sybase-ase.html)** | Adaptive Server Enterprise high-throughput transaction processing engine for financial services. | **~$11,000/month** (Enterprise core licensing benchmark). | **90-Day Advanced Free Trial** with full transactional capabilities. | **$200+ Billion Valuation** / ~$34B Revenue |
+
+---
+
+## 🔓 Open-Source GitHub Repositories
+
+Top open-source relational databases, distributed SQL engines, embedded storage engines, and PostgreSQL/MySQL extensions, sorted by **GitHub Star Count** (descending).
+
+- ⚡ **[Supabase](https://github.com/supabase/supabase)**  
+  [![GitHub stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers)  
+  *The open-source Firebase alternative.* Built on top of PostgreSQL, providing real-time database subscriptions, auto-generated REST/GraphQL APIs, vector search (`pgvector`), authentication, and edge functions.
+
+- 📈 **[ClickHouse](https://github.com/ClickHouse/ClickHouse)**  
+  [![GitHub stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
+  *Fast open-source column-oriented database management system.* Engineered for real-time analytical queries (OLAP) on petabyte-scale structured data using SQL.
+
+- 🐬 **[TiDB](https://github.com/pingcap/tidb)**  
+  [![GitHub stars](https://img.shields.io/github/stars/pingcap/tidb?style=social&color=white)](https://github.com/pingcap/tidb/stargazers)  
+  *Open-source distributed Hybrid Transactional and Analytical Processing (HTAP) database.* Fully MySQL protocol-compatible, supporting horizontal scaling, strong consistency, and real-time analytics.
+
+- 🦆 **[DuckDB](https://github.com/duckdb/duckdb)**  
+  [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
+  *An in-process SQL OLAP database management system.* Known as the "SQLite for Analytics", DuckDB features vectorized execution, zero zero-dependency single file binary, and seamless Python/Pandas integrations.
+
+- 🪳 **[CockroachDB](https://github.com/cockroachdb/cockroach)**  
+  [![GitHub stars](https://img.shields.io/github/stars/cockroachdb/cockroach?style=social&color=white)](https://github.com/cockroachdb/cockroach/stargazers)  
+  *Cloud-native distributed SQL database.* Designed with PostgreSQL compatibility, automatic sharding, geo-partitioning, and serializable ACID transactions that survive data center outages.
+
+- 🔀 **[Dolt](https://github.com/dolthub/dolt)**  
+  [![GitHub stars](https://img.shields.io/github/stars/dolthub/dolt?style=social&color=white)](https://github.com/dolthub/dolt/stargazers)  
+  *Git for Data.* Dolt is a SQL database with version control features including branch, merge, diff, push, and pull capabilities with full MySQL command-line compatibility.
+
+- 🐘 **[PostgreSQL](https://github.com/postgres/postgres)**  
+  [![GitHub stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers)  
+  *The world's most advanced open-source relational database.* Highly extensible enterprise ACID engine supporting JSONB, vector search, complex window functions, and rich extension ecosystem (PostGIS, TimescaleDB).
+
+- ☸️ **[Vitess](https://github.com/vitessio/vitess)**  
+  [![GitHub stars](https://img.shields.io/github/stars/vitessio/vitess?style=social&color=white)](https://github.com/vitessio/vitess/stargazers)  
+  *Database clustering system for horizontal scaling of MySQL.* Originally developed by YouTube, Vitess abstracts sharding and connection pooling to scale MySQL to billions of queries.
+
+- ⏱️ **[QuestDB](https://github.com/questdb/questdb)**  
+  [![GitHub stars](https://img.shields.io/github/stars/questdb/questdb?style=social&color=white)](https://github.com/questdb/questdb/stargazers)  
+  *High-performance open-source time-series SQL database.* Optimized for fast financial market data, IoT telemetry, and high-throughput SQL analytics with SIMD optimization.
+
+- 🔬 **[libSQL](https://github.com/tursodatabase/libsql)**  
+  [![GitHub stars](https://img.shields.io/github/stars/tursodatabase/libsql?style=social&color=white)](https://github.com/tursodatabase/libsql/stargazers)  
+  *Open-source community contribution fork of SQLite.* Maintained by Turso, adding serverless replication, web assembly (WASM) extensions, and HTTP protocol interfaces.
+
+- 🌐 **[Citus](https://github.com/citusdata/citus)**  
+  [![GitHub stars](https://img.shields.io/github/stars/citusdata/citus?style=social&color=white)](https://github.com/citusdata/citus/stargazers)  
+  *Distributed PostgreSQL as an extension.* Citus horizontally transforms PostgreSQL across multiple nodes with distributed tables and tenant isolation.
+
+- 🐬 **[MySQL Server](https://github.com/mysql/mysql-server)**  
+  [![GitHub stars](https://img.shields.io/github/stars/mysql/mysql-server?style=social&color=white)](https://github.com/mysql/mysql-server/stargazers)  
+  *The world's most popular open-source relational database.* Powers millions of web applications worldwide featuring InnoDB storage engine, replication topology, and high availability.
+
+- 🦣 **[YugabyteDB](https://github.com/yugabyte/yugabyte-db)**  
+  [![GitHub stars](https://img.shields.io/github/stars/yugabyte/yugabyte-db?style=social&color=white)](https://github.com/yugabyte/yugabyte-db/stargazers)  
+  *Cloud-native distributed SQL database.* Features 100% PostgreSQL wire-protocol compatibility, multi-region synchronous replication, and fault tolerance under Apache-2.0 license.
+
+- 🪶 **[SQLite](https://github.com/sqlite/sqlite)**  
+  [![GitHub stars](https://img.shields.io/github/stars/sqlite/sqlite?style=social&color=white)](https://github.com/sqlite/sqlite/stargazers)  
+  *The most deployed SQL database engine in the world.* Self-contained, zero-configuration, serverless, file-based SQL database powering mobile OSs, browsers, and embedded software.
+
+- 🦭 **[MariaDB Server](https://github.com/MariaDB/server)**  
+  [![GitHub stars](https://img.shields.io/github/stars/MariaDB/server?style=social&color=white)](https://github.com/MariaDB/server/stargazers)  
+  *Community-developed fork of MySQL.* Guaranteed open source under GPL, featuring pluggable storage engines (ColumnStore, MyRocks, Aria) and fast performance optimizations.
+
+- ☕ **[H2 Database Engine](https://github.com/h2database/h2database)**  
+  [![GitHub stars](https://img.shields.io/github/stars/h2database/h2database?style=social&color=white)](https://github.com/h2database/h2database/stargazers)  
+  *Fast Java SQL database.* Lightweight embedded and server-mode RDBMS featuring in-memory execution, widely used in Spring Boot testing and Java applications.
+
+- 🤖 **[MatrixOne](https://github.com/matrixorigin/matrixone)**  
+  [![GitHub stars](https://img.shields.io/github/stars/matrixorigin/matrixone?style=social&color=white)](https://github.com/matrixorigin/matrixone/stargazers)  
+  *Hyper-converged cloud-native database.* Supports HSTAP (Hybrid Serving/Transactional/Analytical Processing) for multi-tenant cloud and enterprise workload consolidation.
+
+- 🔥 **[Firebird SQL](https://github.com/FirebirdSQL/firebird)**  
+  [![GitHub stars](https://img.shields.io/github/stars/FirebirdSQL/firebird?style=social&color=white)](https://github.com/FirebirdSQL/firebird/stargazers)  
+  *Powerful cross-platform relational database.* Offers multi-generational concurrency control (MVCC), stored procedures, and small resource footprint for embedded systems.
+
+- 🐎 **[Apache Derby](https://github.com/apache/derby)**  
+  [![GitHub stars](https://img.shields.io/github/stars/apache/derby?style=social&color=white)](https://github.com/apache/derby/stargazers)  
+  *Pure Java relational database engine.* Maintained by the Apache Software Foundation for zero-administration Java enterprise deployments.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community contributions! Follow these simple guidelines:
+
+1. **🔀 Fork the Repository** to your personal GitHub account.
+2. **✏️ Add or Update Entries** in `README.md` keeping formatting consistent.
+3. **📋 Include Information:** Product Name, Repository Link, Star Count / Pricing, and factual 1–2 sentence description.
+4. **📥 Submit a Pull Request (PR)** with a descriptive title.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring this curated repository! If you find this guide useful, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🔀 **Fork & Share** it with your developer and DBA network.
+- ☕ **Sponsor / Buy me a coffee:** Show your appreciation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Enterprise Security & Disclaimer
+
+> 🔒 **Security Notice:** Relational databases store confidential financial, personal, and operational assets. When deploying self-hosted databases or managing cloud instances, enforce TLS encryption in transit, disk encryption at rest, strict IAM roles, SQL injection protection, and automated disaster recovery backups.
+
+- **📜 Licensing Awareness:** Some projects utilize commercial/source-available licensing (e.g., CockroachDB BSL) or non-OSI licenses. Review project licensing before enterprise integration.
+- **⚖️ Commercial vs. Open Source:** While open-source databases deliver high performance, mission-critical enterprise workloads requiring 24/7 SLAs, regulatory compliance standards, and multi-datacenter failover often leverage vendor-supported commercial platforms.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Relational-Database-Management-System-RDBMS&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Relational-Database-Management-System-RDBMS&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>⭐ Star this repository if you find it helpful! ⭐</b><br>
+  <i>Maintained with ❤️ for database administrators, system architects, and backend engineers worldwide.</i>
+</p>
