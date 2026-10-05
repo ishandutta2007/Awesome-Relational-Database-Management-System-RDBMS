@@ -55,82 +55,82 @@ Below is a curated comparison of leading commercial RDBMS engines and fully mana
 
 ## 🔓 Open-Source GitHub Repositories
 
-Top open-source relational databases, distributed SQL engines, embedded storage engines, and PostgreSQL/MySQL extensions, sorted by **GitHub Star Count** (descending).
+Top open-source relational databases, distributed SQL engines, embedded storage engines, and PostgreSQL/MySQL extensions, sorted by **GitHub Stars_Count** (descending).
 
 - ⚡ **[Supabase](https://github.com/supabase/supabase)**  
-  [![GitHub stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers)  
   *The open-source Firebase alternative.* Built on top of PostgreSQL, providing real-time database subscriptions, auto-generated REST/GraphQL APIs, vector search (`pgvector`), authentication, and edge functions.
 
 - 📈 **[ClickHouse](https://github.com/ClickHouse/ClickHouse)**  
-  [![GitHub stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
   *Fast open-source column-oriented database management system.* Engineered for real-time analytical queries (OLAP) on petabyte-scale structured data using SQL.
 
 - 🐬 **[TiDB](https://github.com/pingcap/tidb)**  
-  [![GitHub stars](https://img.shields.io/github/stars/pingcap/tidb?style=social&color=white)](https://github.com/pingcap/tidb/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/pingcap/tidb?style=social&color=white)](https://github.com/pingcap/tidb/stargazers)  
   *Open-source distributed Hybrid Transactional and Analytical Processing (HTAP) database.* Fully MySQL protocol-compatible, supporting horizontal scaling, strong consistency, and real-time analytics.
 
 - 🦆 **[DuckDB](https://github.com/duckdb/duckdb)**  
-  [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
   *An in-process SQL OLAP database management system.* Known as the "SQLite for Analytics", DuckDB features vectorized execution, zero zero-dependency single file binary, and seamless Python/Pandas integrations.
 
 - 🪳 **[CockroachDB](https://github.com/cockroachdb/cockroach)**  
-  [![GitHub stars](https://img.shields.io/github/stars/cockroachdb/cockroach?style=social&color=white)](https://github.com/cockroachdb/cockroach/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/cockroachdb/cockroach?style=social&color=white)](https://github.com/cockroachdb/cockroach/stargazers)  
   *Cloud-native distributed SQL database.* Designed with PostgreSQL compatibility, automatic sharding, geo-partitioning, and serializable ACID transactions that survive data center outages.
 
 - 🔀 **[Dolt](https://github.com/dolthub/dolt)**  
-  [![GitHub stars](https://img.shields.io/github/stars/dolthub/dolt?style=social&color=white)](https://github.com/dolthub/dolt/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/dolthub/dolt?style=social&color=white)](https://github.com/dolthub/dolt/stargazers)  
   *Git for Data.* Dolt is a SQL database with version control features including branch, merge, diff, push, and pull capabilities with full MySQL command-line compatibility.
 
 - 🐘 **[PostgreSQL](https://github.com/postgres/postgres)**  
-  [![GitHub stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers)  
   *The world's most advanced open-source relational database.* Highly extensible enterprise ACID engine supporting JSONB, vector search, complex window functions, and rich extension ecosystem (PostGIS, TimescaleDB).
 
 - ☸️ **[Vitess](https://github.com/vitessio/vitess)**  
-  [![GitHub stars](https://img.shields.io/github/stars/vitessio/vitess?style=social&color=white)](https://github.com/vitessio/vitess/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/vitessio/vitess?style=social&color=white)](https://github.com/vitessio/vitess/stargazers)  
   *Database clustering system for horizontal scaling of MySQL.* Originally developed by YouTube, Vitess abstracts sharding and connection pooling to scale MySQL to billions of queries.
 
 - ⏱️ **[QuestDB](https://github.com/questdb/questdb)**  
-  [![GitHub stars](https://img.shields.io/github/stars/questdb/questdb?style=social&color=white)](https://github.com/questdb/questdb/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/questdb/questdb?style=social&color=white)](https://github.com/questdb/questdb/stargazers)  
   *High-performance open-source time-series SQL database.* Optimized for fast financial market data, IoT telemetry, and high-throughput SQL analytics with SIMD optimization.
 
 - 🔬 **[libSQL](https://github.com/tursodatabase/libsql)**  
-  [![GitHub stars](https://img.shields.io/github/stars/tursodatabase/libsql?style=social&color=white)](https://github.com/tursodatabase/libsql/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/tursodatabase/libsql?style=social&color=white)](https://github.com/tursodatabase/libsql/stargazers)  
   *Open-source community contribution fork of SQLite.* Maintained by Turso, adding serverless replication, web assembly (WASM) extensions, and HTTP protocol interfaces.
 
 - 🌐 **[Citus](https://github.com/citusdata/citus)**  
-  [![GitHub stars](https://img.shields.io/github/stars/citusdata/citus?style=social&color=white)](https://github.com/citusdata/citus/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/citusdata/citus?style=social&color=white)](https://github.com/citusdata/citus/stargazers)  
   *Distributed PostgreSQL as an extension.* Citus horizontally transforms PostgreSQL across multiple nodes with distributed tables and tenant isolation.
 
 - 🐬 **[MySQL Server](https://github.com/mysql/mysql-server)**  
-  [![GitHub stars](https://img.shields.io/github/stars/mysql/mysql-server?style=social&color=white)](https://github.com/mysql/mysql-server/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/mysql/mysql-server?style=social&color=white)](https://github.com/mysql/mysql-server/stargazers)  
   *The world's most popular open-source relational database.* Powers millions of web applications worldwide featuring InnoDB storage engine, replication topology, and high availability.
 
 - 🦣 **[YugabyteDB](https://github.com/yugabyte/yugabyte-db)**  
-  [![GitHub stars](https://img.shields.io/github/stars/yugabyte/yugabyte-db?style=social&color=white)](https://github.com/yugabyte/yugabyte-db/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/yugabyte/yugabyte-db?style=social&color=white)](https://github.com/yugabyte/yugabyte-db/stargazers)  
   *Cloud-native distributed SQL database.* Features 100% PostgreSQL wire-protocol compatibility, multi-region synchronous replication, and fault tolerance under Apache-2.0 license.
 
 - 🪶 **[SQLite](https://github.com/sqlite/sqlite)**  
-  [![GitHub stars](https://img.shields.io/github/stars/sqlite/sqlite?style=social&color=white)](https://github.com/sqlite/sqlite/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/sqlite/sqlite?style=social&color=white)](https://github.com/sqlite/sqlite/stargazers)  
   *The most deployed SQL database engine in the world.* Self-contained, zero-configuration, serverless, file-based SQL database powering mobile OSs, browsers, and embedded software.
 
 - 🦭 **[MariaDB Server](https://github.com/MariaDB/server)**  
-  [![GitHub stars](https://img.shields.io/github/stars/MariaDB/server?style=social&color=white)](https://github.com/MariaDB/server/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/MariaDB/server?style=social&color=white)](https://github.com/MariaDB/server/stargazers)  
   *Community-developed fork of MySQL.* Guaranteed open source under GPL, featuring pluggable storage engines (ColumnStore, MyRocks, Aria) and fast performance optimizations.
 
 - ☕ **[H2 Database Engine](https://github.com/h2database/h2database)**  
-  [![GitHub stars](https://img.shields.io/github/stars/h2database/h2database?style=social&color=white)](https://github.com/h2database/h2database/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/h2database/h2database?style=social&color=white)](https://github.com/h2database/h2database/stargazers)  
   *Fast Java SQL database.* Lightweight embedded and server-mode RDBMS featuring in-memory execution, widely used in Spring Boot testing and Java applications.
 
 - 🤖 **[MatrixOne](https://github.com/matrixorigin/matrixone)**  
-  [![GitHub stars](https://img.shields.io/github/stars/matrixorigin/matrixone?style=social&color=white)](https://github.com/matrixorigin/matrixone/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/matrixorigin/matrixone?style=social&color=white)](https://github.com/matrixorigin/matrixone/stargazers)  
   *Hyper-converged cloud-native database.* Supports HSTAP (Hybrid Serving/Transactional/Analytical Processing) for multi-tenant cloud and enterprise workload consolidation.
 
 - 🔥 **[Firebird SQL](https://github.com/FirebirdSQL/firebird)**  
-  [![GitHub stars](https://img.shields.io/github/stars/FirebirdSQL/firebird?style=social&color=white)](https://github.com/FirebirdSQL/firebird/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/FirebirdSQL/firebird?style=social&color=white)](https://github.com/FirebirdSQL/firebird/stargazers)  
   *Powerful cross-platform relational database.* Offers multi-generational concurrency control (MVCC), stored procedures, and small resource footprint for embedded systems.
 
 - 🐎 **[Apache Derby](https://github.com/apache/derby)**  
-  [![GitHub stars](https://img.shields.io/github/stars/apache/derby?style=social&color=white)](https://github.com/apache/derby/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/apache/derby?style=social&color=white)](https://github.com/apache/derby/stargazers)  
   *Pure Java relational database engine.* Maintained by the Apache Software Foundation for zero-administration Java enterprise deployments.
 
 ---
@@ -141,7 +141,7 @@ We welcome community contributions! Follow these simple guidelines:
 
 1. **🔀 Fork the Repository** to your personal GitHub account.
 2. **✏️ Add or Update Entries** in `README.md` keeping formatting consistent.
-3. **📋 Include Information:** Product Name, Repository Link, Star Count / Pricing, and factual 1–2 sentence description.
+3. **📋 Include Information:** Product Name, Repository Link, Stars_Count / Pricing, and factual 1–2 sentence description.
 4. **📥 Submit a Pull Request (PR)** with a descriptive title.
 
 ---
